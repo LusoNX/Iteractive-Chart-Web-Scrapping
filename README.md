@@ -11,7 +11,9 @@ First stage of the script consists in removing the pop up add and login into Cry
 ![image](https://user-images.githubusercontent.com/84282116/160249925-db1a6fad-076a-4c74-8f71-9c111fdfac5c.png)
 
 To iteractively scrape the data i use a for loop to move the cursor (caled by the function "move_by_offset") over the coordinates of the graph.
-Because each mouse movement does not corresponde to each day movement, under the default structure of the webpage, I zoom in the graph in order to fully capture the daily  datapoints within the graph
+Because each mouse movement does not corresponde to each day movement, under the default structure of the webpage, I zoom in the graph in order to fully capture the daily  datapoints within the graph.
+![image](https://user-images.githubusercontent.com/84282116/160252163-dfbe2617-cfe2-45e7-8e49-d433631ac128.png)
+
 
 Two separate iterations are made in the "main()" function to capture the zoom from the left, and the zoom  for the right, appending the data into a final dataframe.
 ![image](https://user-images.githubusercontent.com/84282116/160252022-358d7b0c-4a0b-45f5-a70d-11af753aacd8.png)
